@@ -9,22 +9,32 @@
 # campus = Factory("nylon",3,4)
 # reebok.show()
 # campus.show()
-class Factory:
-    def __init__(self,age):
-        self.age=age
-    def show(self):
-        print(f"your age is {self.age}")        
-    @classmethod
-    def hello(cls):
-        print("how are you")
-    @staticmethod
-    def static():
-        print("how are you")
+# class Factory:
+#     def __init__(self,age):
+#         self.age=age
+#     def show(self):
+#         print(f"your age is {self.age}")        
+#     @classmethod
+#     def hello(cls):
+#         print("how are you")
+#     @staticmethod
+#     def static():
+#         print("how are you")
 
-obj = Factory(12)
-obj.show()
+# obj = Factory(12)
+# obj.show()
+# obj.hello()
+# obj.static()
+class Factory:
+    a= "i m mentioned inside class factory"
+    def hello(self):
+        print("how are you")
+class SubFactory(Factory):
+    pass
+obj=Factory()
+obj2=SubFactory()
 obj.hello()
-obj.static()
+obj2.hello()
 
         
 
