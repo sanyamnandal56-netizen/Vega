@@ -8,6 +8,11 @@
 # print(evensum)
 # print(oddsum)
 n= int(input("enter the number - "))
-for i in range(1,n+1):
+sum=0
+for i in range(1,n):
     if n%i==0:
-        print(i)
+        sum=sum+i
+if  sum==n:
+    print("perfect number")
+
+    
