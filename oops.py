@@ -43,27 +43,27 @@
 #         print("Heyooo")
 # obj=Human()
 # obj.show2()
-class Animal:
-    def show(self):
-        print("hello")
-class Human:
-    def show(self):
-        print("hello i am working")
-obj = Human()
-onj2= Animal()
-obj.show()
-onj2.show()
-
-# class Factory:
-#     a = "pune"
+# class Animal:
 #     def show(self):
-#         print("i am pune factory")
-# class Bhopal(Factory):
-#     def show2(self):
-#         print(super().a)
-# obj = Bhopal()
-# obj.a="mumbai"
-# print(obj.a)
+#         print("hello")
+# class Human:
+#     def show(self):
+#         print("hello i am working")
+# obj = Human()
+# onj2= Animal()
+# obj.show()
+# onj2.show()
+
+class Factory:
+    a = "pune"
+    def show(self):
+        print("i am pune factory")
+class Bhopal(Factory):
+    def show2(self):
+        print(super().a)
+obj = Bhopal()
+obj.a="mumbai"
+print(obj.a)
 
         
 
