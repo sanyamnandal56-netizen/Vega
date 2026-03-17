@@ -54,16 +54,21 @@
 # obj.show()
 # onj2.show()
 
-class Factory:
-    a = "pune"
-    def show(self):
-        print("i am pune factory")
-class Bhopal(Factory):
-    def show2(self):
-        print(super().a)
-obj = Bhopal()
-obj.a="mumbai"
-print(obj.a)
+# class Factory:
+#     a = "pune"
+#     def show(self):
+#         print("i am pune factory")
+# class Bhopal(Factory):
+#     def show2(self):
+#         print(super().a)
+# obj = Bhopal()
+# obj.a="mumbai"
+# print(obj.a)
+class Animal:
+    a = "print"
+
+
+
 
         
 
